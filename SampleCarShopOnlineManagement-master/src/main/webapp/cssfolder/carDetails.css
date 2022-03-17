@@ -1,0 +1,106 @@
+/* car presentation div*/
+.car{
+
+    background-color: graytext;
+    max-width:85%;
+    margin: auto;
+    margin-bottom: 40px;
+    position: relative;
+/*                border: 3px solid #46b8da;*/
+    border-radius: 50px;
+    text-align:left;
+}
+/* car header div*/
+.carHeader{
+    padding: 15px;
+    color: white;
+    overflow: auto;
+    cursor: pointer;               
+}
+/*car logo img*/
+.carLogos{
+    padding: 5px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 15px;
+    overflow:auto;
+    max-width: 60px;
+}
+
+/* title and brand span elements*/
+.carHeaderSpan{
+    padding-left: 10px;
+    font-weight: bold;
+    overflow: auto;
+}
+
+/*car details and images div*/
+.carDetailsAndImages{
+    display: none;
+}
+.carDetails{
+    overflow: auto;
+    padding: 15px;
+    color: white;
+}
+.carImages{
+    padding: 15px;
+    color:white;
+}
+
+/*show hide details button*/
+.showHideButton{
+    position:absolute;
+    padding-top:5px;
+    padding-bottom:7px;
+    right:2%;
+    top: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #6CF06C;
+    background-color: black;
+    border: 0;
+}
+.showHideButton:focus{
+    background-color: black;
+}
+
+@media only screen and (max-width: 991px){
+    .showHideButton{
+        right:50%;                 
+        top:100%;
+        transform: translate(50%);
+    }
+}
+
+.smallImageContainer{
+     display: inline-block;
+}
+.smallImage{
+    cursor: pointer;
+    border: 1px solid #fefefe;
+    padding:2px;
+    text-align: center;  
+    border-radius: 15px;
+}
+.smallImage:hover{
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1.7,1.7);
+    transition: 0.3s ease;
+}
+
+@media (min-width:992px) and (max-width:1369px){
+    .smallImage{
+        padding-left: 17px;
+        padding-bottom: 17px;
+
+    }
+}
+
+.no-img-span, .no-details-p{
+    margin-left:20px;
+}
+.details-p{
+    margin-left: 20px;
+}

@@ -1,0 +1,41 @@
+.navbar-inverse .navbar-brand {
+    color: #ffa500;
+}
+.navbar-inverse .navbar-text {
+    color: #ffa500;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffa500;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
+    color: #ffa500;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ffa500;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #ffa500;
+}
+.navbar-inverse .navbar-link {
+    color: #ffa500;
+}
+ul.nav.navbar-nav:hover{
+    background-color: black;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffa500;
+  }
+}
+/*drop down open on hover in devices of 979px wide or more, otherwise with tap/click on smaller devices*/
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+  }
+}
+
+.graytextBC{
+    background-color: graytext;
+}

@@ -1,0 +1,100 @@
+.myFooter{
+    color: #fff;
+    background-color: #3b3f3f;
+    cursor:default;
+    margin-top: 80px;
+
+}
+.row{
+    text-align: center;
+}
+
+.social-media-icons{
+    font-size: 3em;
+    cursor: pointer;
+    padding: 10px;
+}
+.fa-twitter:hover{
+    color: #55acee;
+}
+.fa-facebook:hover{
+    color: #3B5998;
+}
+.fa-google-plus:hover{
+    color: #dd4b39;
+}
+.contact-mini-icons{
+    font-size: 22px;
+    padding: 5px;
+}
+.contact-mini-text{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 300;
+}
+.location:hover{
+    text-decoration: none;
+}
+.sitemap{
+    font-size: 20px;
+    font-weight: 200;
+}
+.site-anchor-text{
+    color: orange;  
+
+}
+.site-anchor-text:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer-headline{
+    font-weight:200;
+}
+.underlineDiv{
+    background-color: orange;
+    height:2px;
+    transition: 1s ease;
+    width:0%;
+    margin: auto;
+    margin-bottom:12px;
+}
+.msgTextarea{
+    width:85%;
+    margin: auto;
+    margin-top:3px;
+}
+.msgText{
+    display:inline;
+    width: 42%;
+}
+.msgBtn{
+    margin:4px;
+    color: graytext;
+    height:24px;
+    width: 64px;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.current-page-sitemap{
+
+    background-color: #909090;
+}
+
+.page-sitemap:hover{
+    background-color: black;
+}
+
+.footer-group:hover  .underlineDiv{
+    width: 100% ;
+    
+}
+
+.smallUnderlineDiv{
+    background-color: orange;
+    height:1px;
+    opacity:0.7;
+    margin: auto;
+}

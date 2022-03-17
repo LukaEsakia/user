@@ -1,0 +1,188 @@
+textarea {
+    border-radius: 10px;
+    border-color: aliceblue;                
+}
+
+input {
+    border-radius: 5px;
+    border-color: aliceblue;
+    border: none;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+/*custom vertical form*/
+form > label{
+    display: initial;      
+}
+
+.myVerticalForm{
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.myVerticalFormRow{
+    margin-bottom: 15px;
+}
+
+.fileInputDiv{
+    position: relative;
+}
+.fileInputClose {
+    position: absolute;
+    right: -5px;
+    top: -4px;
+    margin:5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition:  color 0.6s ease-out;
+    color: rgb(166, 166, 166);
+    background-color: transparent;
+    font-size: 24px;   
+}
+.fileInputClose:hover{
+    color: rgb(64, 64, 64);
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .myVerticalForm{
+        max-width: 85%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .myVerticalForm{
+        max-width: 75%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .myVerticalForm{
+        max-width: 65%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .myVerticalForm{
+        max-width: 50%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .myVerticalForm{
+        max-width: 40%;
+    }
+}
+
+.brand-select{
+    cursor: pointer;
+    overflow-x: auto;
+}
+
+label{
+    display:block;
+}
+legend{
+    position:relative;
+    margin-top: 20px;
+    color: #FFD700;
+
+}
+fieldset{
+    color: #FFD700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.carCloseButton{  
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: red;
+    font-size: 24px;
+    height: 38px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 4px;          
+}
+.carCloseButton:hover{
+    box-shadow: inset 0 5px 30px #193047;
+    color: red;
+}
+.carCloseButton:active{
+    box-shadow: inset 0 5px 30px #193047;
+    color: initial;
+}
+.fileBtn{
+    height: 37px;
+    overflow: auto;
+}
+
+.add_images_Button{
+    background-color: black;
+    color: #E8CC38;
+    border-radius: 20px 20px 20px 20px;
+}
+.blackGrad {
+    background-color:black;
+    color: greenyellow;
+    border-radius: 7px 7px 7px 7px; 
+}
+.blackGrad:hover {
+    color: green;
+}
+.blackGrad:focus {
+    color: greenyellow;
+}
+.buttonRightSideText{
+    padding-left:5px;
+}
+.myPanel{
+    border-top:0px;
+    background-color: transparent;   
+    border: 0px;
+}
+.myPanelHeading{
+    color: red;
+    /*text-align: left;*/
+    background-color: transparent;
+}
+.myPanelBody{
+    background-color: transparent;
+}
+
+#toogleBrand, #submitBrand{
+    color: greenyellow;
+    background-color: gray;
+}
+
+.form-control{
+    background-color: gainsboro ;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
